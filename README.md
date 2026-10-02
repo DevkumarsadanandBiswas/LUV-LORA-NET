@@ -4,7 +4,7 @@ A lightweight reconstruction network (~0.45M params in 2D, ~0.76M in 3D) that ha
 X-ray, ultrasound and MRI in 2D and 3D with one architecture, using LoRA adaptation,
 FiLM conditioning and a learnable data-consistency layer.
 
-![architecture](docs/architecture.png)
+![architecture](unet-vit-lora-recon/docs/architecture.png)
 
 ## Architecture
 - **Stem conv** → **Encoder 1** (C=24) → down ×2 → **Encoder 2** (C=48) → down ×2
