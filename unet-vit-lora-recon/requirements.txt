@@ -1,0 +1,10 @@
+torch>=2.1
+numpy
+pandas
+matplotlib
+scipy
+pillow
+nibabel
+monai
+tabulate
+scikit-image
