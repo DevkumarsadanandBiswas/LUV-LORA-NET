@@ -68,8 +68,6 @@ Data is not included in this repo.
 Ours is best on ChestXray and BraTS2020 (all five metrics), while VarNet is slightly ahead on BUSI and
 clearly ahead on MRIUSBrain. MRIUSBrain has only 5 test volumes, so differences there are not statistically
 meaningful. Ablations were cut short by the time budget (only LoRA rank 4 completed).
-Note: these numbers come from a run that also included MoDL; the remaining baselines' numbers are unchanged,
-but the code in this repo no longer includes MoDL, so re-running will not reproduce a MoDL row.
 
 ## Citation
 If you use this code, please cite the repository.
